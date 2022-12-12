@@ -2,7 +2,7 @@
 - name: khaled tasks
   hosts: ROUTERS
   gather_facts: false
-
+ # ansible_connection: ansible.netcommon.network_cli
 
   tasks:
     - name: Show running configuration on the device
