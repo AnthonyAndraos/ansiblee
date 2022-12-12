@@ -11,9 +11,9 @@
           - show run
       register: config
 
-#    - name: print output
-#      debug:
-#        var: config.stdout_lines
+    - name: print output
+      debug:
+        var: config.stdout_lines
 
 
 #    - name: Save output to bkp2
